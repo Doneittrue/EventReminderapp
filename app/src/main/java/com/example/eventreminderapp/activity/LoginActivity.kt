@@ -12,7 +12,6 @@ import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
-    private var callbackManager: CallbackManager? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -20,7 +20,7 @@ import com.example.eventreminderapp.adapter.MyEventAdapter
 import com.example.eventreminderapp.R
 import com.example.eventreminderapp.helper.hide
 import com.example.eventreminderapp.helper.show
-import com.example.eventreminderapp.model.Json4Kotlin_Base
+import com.example.eventreminderapp.model.modelFaceBook.Json4Kotlin_Base
 import com.example.eventreminderapp.model.WeatherDataModel
 import com.facebook.*
 import com.facebook.login.LoginManager

@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.eventreminderapp.R
 import com.example.eventreminderapp.activity.MainActivity
-import com.example.eventreminderapp.model.Data
+import com.example.eventreminderapp.model.modelFaceBook.Data
 
 class MyEventAdapter(private val modelList: List<Data>?, private val context: MainActivity) :
     RecyclerView.Adapter<MyEventAdapter.EventHolder>() {
