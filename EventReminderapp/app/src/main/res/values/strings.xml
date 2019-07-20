@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Event Reminder app</string>
+    <string name="login_via">Login Via</string>
+    <string name="google">Google +</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_app_id">2419619111391596</string>
+    <string name="nav_profile">Yor Profile</string>
+    <string name="default_temp">NA</string>
+    <string name="default_location">Fetching Location</string>
+    <string name="server_clientid">294073545749-tjeg841k2r7k9hn5334asnof5m2uuras.apps.googleusercontent.com</string>
+
+
+</resources>
