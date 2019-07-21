@@ -5,18 +5,20 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.example.eventreminderapp.R
 import com.example.eventreminderapp.fragment.FaceBookFragment
+import com.example.eventreminderapp.fragment.GooGleFragment
 import com.example.eventreminderapp.helper.Constants.FACE_BOOK
+import com.example.eventreminderapp.helper.Constants.GOOGLE
 import com.example.eventreminderapp.helper.Constants.TYPE
 import com.facebook.AccessToken
 import com.facebook.login.LoginManager
 
 class MainActivity : AppCompatActivity() {
-private lateinit var type:String
+    private lateinit var type: String
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val intent = intent
-         type=intent.getStringExtra(TYPE)
+        type = intent.getStringExtra(TYPE)
 
         LoginType()
     }
@@ -24,7 +26,9 @@ private lateinit var type:String
     private fun LoginType() {
 
         when (type) {
-            FACE_BOOK -> loadFragment(FaceBookFragment(),0)
+            FACE_BOOK -> loadFragment(FaceBookFragment(), 0)
+            GOOGLE -> loadFragment(GooGleFragment(), 0)
+
         }
     }
 
@@ -52,7 +56,7 @@ private lateinit var type:String
             finish()
 
 
-        }else{
+        } else {
             super.onBackPressed()
 
         }

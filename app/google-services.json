@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "294073545749",
-    "firebase_url": "https://event-reminder-app-22065.firebaseio.com",
-    "project_id": "event-reminder-app-22065",
-    "storage_bucket": "event-reminder-app-22065.appspot.com"
+    "project_number": "845848571173",
+    "firebase_url": "https://test-1551202023917.firebaseio.com",
+    "project_id": "test-1551202023917",
+    "storage_bucket": "test-1551202023917.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:294073545749:android:8a2e722db7262409",
+        "mobilesdk_app_id": "1:845848571173:android:8a2e722db7262409",
         "android_client_info": {
           "package_name": "com.example.eventreminderapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "294073545749-g3b0g3k577npdpjlq10pccfu3un1aom6.apps.googleusercontent.com",
+          "client_id": "845848571173-jm76ush31gapah1te6cl4qqc4e474u0k.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.eventreminderapp",
@@ -23,20 +23,20 @@
           }
         },
         {
-          "client_id": "294073545749-tjeg841k2r7k9hn5334asnof5m2uuras.apps.googleusercontent.com",
+          "client_id": "845848571173-5le8asppa9730n6v9kqg1qhe800rvd6q.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA5JSmO3hMBBJWHLjuCBqmX7Jee6h4UJSQ"
+          "current_key": "AIzaSyCN4Ldko7dfA7j61wIJAIDtecntlzXtPOk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "294073545749-tjeg841k2r7k9hn5334asnof5m2uuras.apps.googleusercontent.com",
+              "client_id": "845848571173-5le8asppa9730n6v9kqg1qhe800rvd6q.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
